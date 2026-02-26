@@ -56,7 +56,9 @@ pip install pandas numpy scikit-learn xgboost openpyxl
 - Edit `VARIANTS` and `GROUPS` in the script to change analysis scope.
 - Adjust model parameters or metrics as needed.
 
-## Contact
-Project Maintainer: Jerzy Bala  
-Email: jerzy@sapienlabs.org
+## Contributors
+- Jerzy Bala (Project Maintainer, jerzy@sapienlabs.org)
+- Tara Thiagarajan
+- Dhanya Parameshwaran
+
 For questions or contributions, contact the project maintainer.
