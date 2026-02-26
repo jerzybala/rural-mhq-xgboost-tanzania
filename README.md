@@ -1,10 +1,11 @@
 
-# XGBoost Performance Table Generator
+# XGBoost Analysis of Tanzanian MHQ Data
+
 
 ## Project Background
-This experiment is part of a study to understand lifestyle drivers of MHQ (Mental Health Quotient) in Tanzania. The analysis explores XGBoost+SHAP methods, similar to those used in our BMJ Open paper:
+This project investigates the lifestyle drivers of Mental Health Quotient (MHQ) in rural Tanzania using machine learning. We apply XGBoost and SHAP analysis to identify and interpret key predictors of mental health outcomes, following a methodology similar to our published work:
 
-BMJ Open 2024;14:e075095. [https://bmjopen.bmj.com/content/14/3/e075095](https://bmjopen.bmj.com/content/14/3/e075095)
+<b>Reference:</b> BMJ Open 2024;14:e075095. <a href="https://bmjopen.bmj.com/content/14/3/e075095">https://bmjopen.bmj.com/content/14/3/e075095</a>
 
 
 This project provides automated, reproducible performance analysis of XGBoost classifiers for mental health questionnaire (MHQ) data, supporting group and variant comparisons.
