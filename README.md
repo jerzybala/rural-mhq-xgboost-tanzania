@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # XGBoost + SHAP Analysis: Lifestyle Drivers of MHQ in Rural Tanzania
 
 ## 📁 Project Overview
@@ -6,7 +7,6 @@ This project analyzes lifestyle factors that predict mental health outcomes (MHQ
 
 **Research Question**: What lifestyle factors best predict whether individuals in rural Tanzania will have good mental health (Succeeding: MHQ ≥ 100) vs poor mental health (Struggling: MHQ < 0)?
 
----
 
 ## 🎯 Quick Start
 
@@ -21,7 +21,6 @@ cd /Users/jerzybala/Desktop/Rural_gmdata_for_ML
 .venv/bin/python xgboost_shap_analysis.py
 ```
 
----
 
 ## 📊 Key Findings Summary
 
@@ -43,51 +42,26 @@ cd /Users/jerzybala/Desktop/Rural_gmdata_for_ML
    - Actionable through expanding educational access
 
 ### Model Performance:
-- **ROC-AUC**: 0.746 (good discrimination)
-- **Accuracy**: 70%
-- **Best at**: Identifying people who are Succeeding (84% precision)
 
----
 
 ## 📂 File Structure
 
 ### 📄 Documentation
-- **README.md** (this file) - Project overview
-- **ANALYSIS_REPORT.md** - Detailed analysis report with interpretations
-- **QUICK_GUIDE.txt** - Quick reference guide for visualizations
 
 ### 🐍 Python Scripts
-- **xgboost_shap_analysis.py** - Main analysis script (run this!)
-- **create_infographic.py** - Creates summary infographic
 
 ### 📊 Visualizations (10 files)
 
 #### Model Performance
-- **confusion_matrix.png** - Classification accuracy breakdown
-- **roc_curve.png** - ROC curve (AUC = 0.746)
-- **xgboost_feature_importance.png** - XGBoost feature importances
 
 #### SHAP Analysis (Interpretability)
-- **SUMMARY_INFOGRAPHIC.png** - ⭐ Overall visual summary
-- **shap_summary_plot.png** - ⭐ Most important plot! Feature impacts
-- **shap_bar_plot.png** - Mean absolute SHAP values
-- **shap_dependence_RelationWithAdultFamily.png** - Top factor analysis
-- **shap_dependence_UPF.Freq.png** - Second factor analysis
-- **shap_dependence_Smartphone.ownership.png** - Third factor analysis
-- **shap_force_plot_struggling.png** - Example of struggling prediction
-- **shap_force_plot_succeeding.png** - Example of succeeding prediction
 
 ### 📁 Data
-- **rural_gmdata_forML.csv** - Dataset (5,095 participants)
 
----
 
 ## 🔬 Methodology
 
 ### Dataset
-- **Source**: Rural Tanzania Global Mind Data
-- **Sample Size**: 5,095 participants
-- **Target Variable**: Binary classification
   - Succeeding: MHQ ≥ 100 (n=3,709, 72.8%)
   - Struggling: MHQ < 0 (n=1,386, 27.2%)
 
@@ -101,85 +75,49 @@ cd /Users/jerzybala/Desktop/Rural_gmdata_for_ML
 7. **Exercise.Freq** (categorical) - Exercise frequency
 
 ### Model
-- **Algorithm**: XGBoost (Gradient Boosting Decision Trees)
-- **Hyperparameters**:
   - Max depth: 5
   - Learning rate: 0.05
   - N estimators: 200
   - Scale pos weight: 0.37 (to handle class imbalance)
-- **Train/Test Split**: 80/20 stratified
-- **Validation**: 5-fold cross-validation
 
 ### Interpretability
-- **SHAP (SHapley Additive exPlanations)**
   - Game-theory based approach to explain predictions
   - Shows both feature importance and direction of impact
   - Provides individual-level explanations
 
----
 
 ## 💡 Main Insights
 
 ### 1. Social Factors Dominate
 **Family relationships** are the #1 predictor, accounting for 29% of model importance and having the highest SHAP impact (0.48). This suggests:
-- Mental health in rural Tanzania is deeply social
-- Interventions targeting family relationships could have major impact
-- Social isolation is a key risk factor
 
 ### 2. Nutrition-Mental Health Link
 **Ultra-processed food consumption** is the #2 predictor (16% importance). Lower UPF consumption correlates with better mental health, suggesting:
-- Diet quality affects mental health
-- Mechanism may involve inflammation, gut-brain axis, or economic factors
-- Nutrition interventions could complement mental health programs
 
 ### 3. Education as Protection
 **Years of education** shows 20% actual SHAP impact. More education predicts better mental health through:
-- Better coping mechanisms
-- Improved economic opportunities
-- Enhanced social connections
-- Greater health literacy
 
 ### 4. Lifestyle is Modifiable
 **Exercise frequency** shows moderate positive impact. Combined with nutrition and social factors, suggests:
-- Multiple modifiable factors contribute to mental health
-- Holistic interventions could be most effective
-- Lifestyle changes may prevent mental health struggles
 
 ### 5. Complex Smartphone Relationship
 Smartphone ownership shows moderate but complex relationship with MHQ:
-- May reflect economic status
-- Could indicate social connectivity
-- Might introduce digital stress
-- Requires further investigation
 
----
 
 ## 🎨 How to Read the Visualizations
 
 ### SHAP Summary Plot (shap_summary_plot.png) ⭐ MOST IMPORTANT
-- **Y-axis**: Features (top = most important)
-- **X-axis**: SHAP value (impact on prediction)
   - Left (negative) = Pushes toward "Struggling"
   - Right (positive) = Pushes toward "Succeeding"
-- **Color**: Feature value
   - Red/Pink = High value
   - Blue = Low value
 
 **Example**: For RelationWithAdultFamily, red dots (good relationships) are mostly on the right (predicting Succeeding), while blue dots (poor relationships) are mostly on the left (predicting Struggling).
 
 ### SHAP Dependence Plots
-- Show how specific feature values affect predictions
-- X-axis: Feature value
-- Y-axis: SHAP value (impact)
-- Reveal non-linear relationships and interactions
 
 ### SHAP Force Plots
-- Explain individual predictions
-- Base value (gray) = average prediction
-- Red arrows = Push toward "Succeeding"
-- Blue arrows = Push toward "Struggling"
 
----
 
 ## 📈 Model Performance Details
 
@@ -191,9 +129,6 @@ Smartphone ownership shows moderate but complex relationship with MHQ:
 | **Overall** | **0.74** | **0.70** | **0.72** | **1,019** |
 
 ### ROC-AUC
-- **Test Set**: 0.7464
-- **Cross-Validation**: 0.7097 ± 0.0109
-- Indicates **good discrimination** between classes
 
 ### Confusion Matrix
 |  | Predicted Struggling | Predicted Succeeding |
@@ -201,7 +136,6 @@ Smartphone ownership shows moderate but complex relationship with MHQ:
 | **Actual Struggling** | 177 (TP) | 100 (FN) |
 | **Actual Succeeding** | 201 (FP) | 541 (TN) |
 
----
 
 ## 🚀 Recommendations
 
@@ -226,18 +160,10 @@ Smartphone ownership shows moderate but complex relationship with MHQ:
 4. Explore interaction effects between factors
 5. Study digital technology's role more deeply
 
----
 
 ## 🔧 Technical Requirements
 
 ### Python Packages
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- scikit-learn
-- xgboost
-- shap
 
 ### Installation
 ```bash
@@ -251,7 +177,6 @@ source .venv/bin/activate  # macOS/Linux
 pip install pandas numpy matplotlib seaborn scikit-learn xgboost shap
 ```
 
----
 
 ## 📝 Citation
 
@@ -264,7 +189,6 @@ Model: XGBoost Classifier with SHAP interpretability
 Date: December 31, 2025
 ```
 
----
 
 ## 🤝 Next Steps
 
@@ -289,17 +213,11 @@ Date: December 31, 2025
    - Educational expansion
    - Community exercise programs
 
----
 
 ## ❓ Questions or Issues?
 
 For questions about:
-- **Analysis methodology**: See xgboost_shap_analysis.py
-- **Interpretation**: See ANALYSIS_REPORT.md or QUICK_GUIDE.txt
-- **Visualizations**: See QUICK_GUIDE.txt
-- **Results**: See SUMMARY_INFOGRAPHIC.png
 
----
 
 ## 📜 License & Acknowledgments
 
@@ -317,8 +235,73 @@ This analysis was conducted to understand lifestyle drivers of mental health in 
 ⚠ Class imbalance
 ⚠ Some missing data
 
----
 
 *Analysis completed: December 31, 2025*
 
 *This project demonstrates the power of combining machine learning (XGBoost) with interpretability tools (SHAP) to generate actionable insights from health data.*
+=======
+
+# XGBoost Analysis of Tanzanian MHQ Data
+
+
+## Project Background
+This project investigates the lifestyle drivers of Mental Health Quotient (MHQ) in rural Tanzania using machine learning. 
+
+
+
+
+This project provides automated, reproducible performance analysis of XGBoost classifiers for mental health questionnaire (MHQ) data, supporting group and variant comparisons.
+
+## Main Script
+
+- **xgb_performance_table_generator.py**
+  - Loops through all group/variant combinations
+  - Applies one-hot encoding and preprocessing
+  - Runs 5-fold cross-validation for each combination
+  - Computes and exports:
+    - Summary metrics (mean/std for AUC, accuracy, F1, precision, recall, specificity, balanced accuracy, MCC, Cohen’s kappa) to `xgb_performance_table.xlsx`
+    - Per-fold metrics to `xgb_performance_table_per_fold.xlsx`
+    - Confusion matrices for each fold to `xgb_confusion_matrices.xlsx`
+    - Feature importances (mean/std across folds) to `xgb_feature_importances.xlsx`
+
+## Data
+- Input: `rural_gmdata_forML.csv`
+- Target: Binary classification (Succeeding vs. Struggling, based on Overall.MHQ)
+
+## Usage
+1. Activate your Python environment:
+   ```bash
+   source /path/to/venv/bin/activate
+   ```
+2. Run the main script:
+   ```bash
+   python xgb_performance_table_generator.py
+   ```
+3. Results will be saved as Excel files in the same directory.
+
+## Requirements
+- Python 3.8+
+- pandas, numpy, scikit-learn, xgboost, openpyxl
+
+Install requirements (if needed):
+```bash
+pip install pandas numpy scikit-learn xgboost openpyxl
+```
+
+## Output Files
+- `xgb_performance_table.xlsx`: Summary metrics (mean/std) for each group/variant
+- `xgb_performance_table_per_fold.xlsx`: All per-fold metrics
+- `xgb_confusion_matrices.xlsx`: Confusion matrices for each fold
+- `xgb_feature_importances.xlsx`: Feature importances (mean/std across folds)
+
+## Customization
+- Edit `VARIANTS` and `GROUPS` in the script to change analysis scope.
+- Adjust model parameters or metrics as needed.
+
+## Contributors
+- Jerzy Bala (Project Maintainer, jerzy@sapienlabs.org)
+- Tara Thiagarajan
+- Dhanya Parameshwaran
+
+For questions or contributions, contact the project maintainer.
+>>>>>>> 167d686ebb2cd62b0b7404cea62ce95c5635d7be
