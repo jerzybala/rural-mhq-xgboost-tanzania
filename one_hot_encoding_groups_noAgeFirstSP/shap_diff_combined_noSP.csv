@@ -1,0 +1,85 @@
+Feature,pair,diff
+Education_Years,rural_hadza - gm,-0.13276307284832
+Exercise.Freq_Missing,rural_hadza - gm,0.009503945708274841
+Exercise.Freq_a few times a month,rural_hadza - gm,-0.042821018025279045
+Exercise.Freq_once a day,rural_hadza - gm,-0.0037148743867874146
+Exercise.Freq_once a week,rural_hadza - gm,-0.05979705974459648
+Exercise.Freq_rarely/never,rural_hadza - gm,-0.16831719130277634
+Exercise.Freq_several days a week,rural_hadza - gm,-0.06700446829199791
+RelationWithAdultFamily_1_Very Close to Most,rural_hadza - gm,0.19220301508903503
+RelationWithAdultFamily_2_Very Close to Some,rural_hadza - gm,-0.03496711701154709
+RelationWithAdultFamily_3_Not Close,rural_hadza - gm,-0.02627687156200409
+RelationWithAdultFamily_4_Dont Get Along,rural_hadza - gm,-0.023590445518493652
+RelationWithAdultFamily_5_Dont Have Family,rural_hadza - gm,-0.004364032298326492
+RelationWithAdultFamily_6_Prefer Not to Say,rural_hadza - gm,0.003774801269173622
+RelationWithAdultFamily_Missing,rural_hadza - gm,0.0006068121292628348
+ShareHomeWith_0,rural_hadza - gm,-0.013598637655377388
+ShareHomeWith_1,rural_hadza - gm,0.004712700843811035
+ShareHomeWith_2,rural_hadza - gm,0.05201977863907814
+ShareHomeWith_3,rural_hadza - gm,-0.010808393359184265
+ShareHomeWith_4,rural_hadza - gm,0.017708919942378998
+ShareHomeWith_5,rural_hadza - gm,0.0071854256093502045
+ShareHomeWith_6+,rural_hadza - gm,0.07982402294874191
+ShareHomeWith_Missing,rural_hadza - gm,0.007792660966515541
+UPF.Freq_Missing,rural_hadza - gm,0.005492974538356066
+UPF.Freq_a few times a month,rural_hadza - gm,-0.05182783305644989
+UPF.Freq_once a day,rural_hadza - gm,-0.025562820956110954
+UPF.Freq_rarely/never,rural_hadza - gm,-0.08812624961137772
+UPF.Freq_several days a week,rural_hadza - gm,0.07383972406387329
+UPF.Freq_several times a day,rural_hadza - gm,-0.21720944344997406
+Education_Years,rural_hadza - age_18_24,-0.09298180043697357
+Exercise.Freq_Missing,rural_hadza - age_18_24,0.009503945708274841
+Exercise.Freq_a few times a month,rural_hadza - age_18_24,0.0022887252271175385
+Exercise.Freq_once a day,rural_hadza - age_18_24,-0.07155269011855125
+Exercise.Freq_once a week,rural_hadza - age_18_24,-0.052797604352235794
+Exercise.Freq_rarely/never,rural_hadza - age_18_24,-0.12396905571222305
+Exercise.Freq_several days a week,rural_hadza - age_18_24,-0.05970940366387367
+RelationWithAdultFamily_1_Very Close to Most,rural_hadza - age_18_24,-0.0954817533493042
+RelationWithAdultFamily_2_Very Close to Some,rural_hadza - age_18_24,0.0054614245891571045
+RelationWithAdultFamily_3_Not Close,rural_hadza - age_18_24,-0.05013613402843475
+RelationWithAdultFamily_4_Dont Get Along,rural_hadza - age_18_24,-0.055582378059625626
+RelationWithAdultFamily_5_Dont Have Family,rural_hadza - age_18_24,-0.013065014034509659
+RelationWithAdultFamily_6_Prefer Not to Say,rural_hadza - age_18_24,0.006885666400194168
+RelationWithAdultFamily_Missing,rural_hadza - age_18_24,-8.633092511445284e-05
+ShareHomeWith_0,rural_hadza - age_18_24,-0.0011011939495801926
+ShareHomeWith_1,rural_hadza - age_18_24,0.004167679697275162
+ShareHomeWith_2,rural_hadza - age_18_24,0.029818113893270493
+ShareHomeWith_3,rural_hadza - age_18_24,0.015328409150242805
+ShareHomeWith_4,rural_hadza - age_18_24,-0.032676227390766144
+ShareHomeWith_5,rural_hadza - age_18_24,-0.01631569117307663
+ShareHomeWith_6+,rural_hadza - age_18_24,0.03582318127155304
+ShareHomeWith_Missing,rural_hadza - age_18_24,-0.005112899467349052
+UPF.Freq_Missing,rural_hadza - age_18_24,0.0007932404987514019
+UPF.Freq_a few times a month,rural_hadza - age_18_24,-0.08773764222860336
+UPF.Freq_once a day,rural_hadza - age_18_24,0.0014137383550405502
+UPF.Freq_rarely/never,rural_hadza - age_18_24,0.004512161016464233
+UPF.Freq_several days a week,rural_hadza - age_18_24,0.08672574535012245
+UPF.Freq_several times a day,rural_hadza - age_18_24,-0.0474969744682312
+Education_Years,gm - age_18_24,0.039781272411346436
+Exercise.Freq_Missing,gm - age_18_24,0.0
+Exercise.Freq_a few times a month,gm - age_18_24,0.045109743252396584
+Exercise.Freq_once a day,gm - age_18_24,-0.06783781573176384
+Exercise.Freq_once a week,gm - age_18_24,0.006999455392360687
+Exercise.Freq_rarely/never,gm - age_18_24,0.044348135590553284
+Exercise.Freq_several days a week,gm - age_18_24,0.007295064628124237
+RelationWithAdultFamily_1_Very Close to Most,gm - age_18_24,-0.28768476843833923
+RelationWithAdultFamily_2_Very Close to Some,gm - age_18_24,0.04042854160070419
+RelationWithAdultFamily_3_Not Close,gm - age_18_24,-0.023859262466430664
+RelationWithAdultFamily_4_Dont Get Along,gm - age_18_24,-0.03199193254113197
+RelationWithAdultFamily_5_Dont Have Family,gm - age_18_24,-0.008700981736183167
+RelationWithAdultFamily_6_Prefer Not to Say,gm - age_18_24,0.003110865131020546
+RelationWithAdultFamily_Missing,gm - age_18_24,-0.0006931430543772876
+ShareHomeWith_0,gm - age_18_24,0.012497443705797195
+ShareHomeWith_1,gm - age_18_24,-0.0005450211465358734
+ShareHomeWith_2,gm - age_18_24,-0.022201664745807648
+ShareHomeWith_3,gm - age_18_24,0.02613680250942707
+ShareHomeWith_4,gm - age_18_24,-0.05038514733314514
+ShareHomeWith_5,gm - age_18_24,-0.023501116782426834
+ShareHomeWith_6+,gm - age_18_24,-0.04400084167718887
+ShareHomeWith_Missing,gm - age_18_24,-0.012905560433864594
+UPF.Freq_Missing,gm - age_18_24,-0.004699734039604664
+UPF.Freq_a few times a month,gm - age_18_24,-0.03590980917215347
+UPF.Freq_once a day,gm - age_18_24,0.026976559311151505
+UPF.Freq_rarely/never,gm - age_18_24,0.09263841062784195
+UPF.Freq_several days a week,gm - age_18_24,0.01288602128624916
+UPF.Freq_several times a day,gm - age_18_24,0.16971246898174286

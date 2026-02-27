@@ -1,0 +1,29 @@
+Feature,Importance
+RelationWithAdultFamily_1_Very Close to Most,0.11216059522659191
+UPF.Freq_a few times a month,0.021663928882017625
+Exercise.Freq_once a day,0.017431635906850908
+UPF.Freq_several times a day,0.01736882790607791
+Exercise.Freq_several days a week,0.011397236447965997
+Exercise.Freq_rarely/never,0.010967243211904499
+RelationWithAdultFamily_3_Not Close,0.008595033336554248
+RelationWithAdultFamily_5_Dont Have Family,0.007440332399265659
+ShareHomeWith_6+,0.0074113440912165094
+RelationWithAdultFamily_4_Dont Get Along,0.006048893612909456
+ShareHomeWith_3,0.0038940960479273644
+UPF.Freq_once a day,0.002782877572712317
+RelationWithAdultFamily_2_Very Close to Some,0.0022707507971784892
+ShareHomeWith_0,0.0016668277128224496
+Exercise.Freq_a few times a month,0.0006618997004541382
+UPF.Freq_Missing,0.0005845975456565955
+ShareHomeWith_2,0.0002657261571166414
+ShareHomeWith_Missing,7.247077012273451e-05
+Exercise.Freq_Missing,0.0
+RelationWithAdultFamily_Missing,-0.000217412310368148
+ShareHomeWith_5,-0.00032853415788967053
+Education_Years,-0.00035752246593878656
+ShareHomeWith_1,-0.0009131317035462438
+UPF.Freq_rarely/never,-0.0009662769349695899
+RelationWithAdultFamily_6_Prefer Not to Say,-0.0010194221663928915
+ShareHomeWith_4,-0.0012271717074113675
+Exercise.Freq_once a week,-0.00709730408735143
+UPF.Freq_several days a week,-0.007478983476664402
