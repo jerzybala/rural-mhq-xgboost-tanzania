@@ -3,7 +3,7 @@
 
 
 ## Project Background
-This project investigates the lifestyle drivers of Mental Health Quotient (MHQ) in rural Tanzania using machine learning. We apply XGBoost and SHAP analysis to identify and interpret key predictors of mental health outcomes, following a methodology similar to our published work:
+This project investigates the lifestyle drivers of Mental Health Quotient (MHQ) in rural Tanzania using machine learning. 
 
 
 
